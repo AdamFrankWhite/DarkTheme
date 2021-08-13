@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", "Arial Narrow", Arial, sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 600px;
+  background-image: url("./images/background.png");
+  background-size: cover;
+}
+header h2 {
+  font-size: 2.5em;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: 3em;
+  margin-bottom: 0em;
+}
+header h3 {
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+  color: #e9e9e9;
+  font-weight: 300;
+  margin-top: 0em;
+  margin-bottom: 2.5em;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5em;
+  text-transform: uppercase;
+}
+nav h1 span:nth-of-type(1) {
+  padding-right: 0.25em;
+  color: white;
+}
+nav h1 span:nth-of-type(2) {
+  color: #c200a8;
+}
+nav ul.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  color: white;
+}
+nav ul.nav-links li {
+  padding: 1em;
+  margin-right: 1em;
+  font-weight: 500;
+}
+
+.search-box {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-box > span {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+  color: #dfdfdf;
+  font-weight: 500;
+  padding-bottom: 0.25em;
+}
+.search-box .search-box-row {
+  width: 100%;
+}
+.search-box input[type=text] {
+  padding: 1em 1em 1em 10%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  width: 65%;
+  background: #313131;
+  color: #d4d4d4;
+  background-image: url("./images/icons/icons8-search-60.png");
+  background-size: auto 50%;
+  background-repeat: no-repeat;
+  background-position: 5%;
+}
+.search-box input[type=submit] {
+  background: #c200a8;
+  width: 32%;
+  margin-left: 2%;
+  color: white;
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=main.css.map */
